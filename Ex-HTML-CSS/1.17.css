@@ -1,0 +1,37 @@
+body {
+    background-color: gray;
+    margin: 0px;
+}
+
+.container {
+    width: 256px;
+    background-color: white;
+    border-radius: 8px;
+}
+
+.imagem {
+    width: 256px;
+    height: 192px;
+    border-radius: 0 0px;
+}
+
+.titulo {
+    padding: 8px;
+    font-size: 24px;
+    font-family: Helvetica;
+    text-align: left;
+    font-weight: bold;
+    margin-top: 8px;
+
+}
+
+.paragrafo {
+    font-family: Helvetica;
+    line-height: 1.5;
+    font-size: 16px;
+    margin-top: 8px;
+}
+
+h1, p {
+    margin: 0;
+}

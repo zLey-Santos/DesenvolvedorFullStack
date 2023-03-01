@@ -1,0 +1,16 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    background-color: lightgray;
+}
+
+.lista-imagens {
+    display: flex;
+    flex-direction: column;
+}
+
+.item-imagem {
+    width: 512px;
+    height: 328px;
+    padding: 10px;
+}

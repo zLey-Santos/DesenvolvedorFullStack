@@ -1,0 +1,12 @@
+.titulo {
+    background-color: green;
+    text-align: center;
+    color: red;
+    font-size: 32px;
+}
+
+.paragrafo {
+    background-color: yellow;
+    color: blue;
+    font-size: 16px;
+}

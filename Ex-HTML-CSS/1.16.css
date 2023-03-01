@@ -1,0 +1,13 @@
+body {
+    background-color: gray;
+    margin: 0;
+}
+
+.txt {
+    background-color: white;
+    font-family: Helvetica;
+    text-align: justify;
+    padding: 8px;
+    margin: 8px;
+    border-radius: 8px;
+}

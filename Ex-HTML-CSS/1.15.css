@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+}
+
+h1 {
+    font-size: 28px;
+    color: orange;
+    margin-bottom: 8px;
+    font-weight: normal;
+    font-family: Helvetica;
+    text-align: center;
+
+}
+
+p {
+    font-family: Helvetica;
+    font-size: 18px;
+
+}

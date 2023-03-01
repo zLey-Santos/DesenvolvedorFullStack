@@ -1,0 +1,35 @@
+.item-turismo-imagem {
+    width: 256px;
+    height: 256px;
+    float: left;
+}
+
+.lista-turismo {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.item-turismo {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.item-turismo-imagem {
+    width: 256px;
+    height: 256px;
+    float: left;
+}
+
+.item-turismo-titulo {
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.item-turismo-descricao {
+    margin-left: 10px;
+}

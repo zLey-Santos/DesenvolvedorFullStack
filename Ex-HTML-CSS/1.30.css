@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos para desktop */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 60px;
+}
+
+.nome {
+    margin-left: 10px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#menu-icon {
+    display: none;
+}
+
+/* Estilos para celular */
+@media screen and (max-width: 960px) {
+    header {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .logo {
+        margin-bottom: 10px;
+    }
+
+    nav {
+        display: none;
+    }
+
+    #menu-icon {
+        display: block;
+        font-size: 24px;
+        cursor: pointer;
+    }
+
+    #menu-icon.active {
+        color: #fff;
+    }
+
+    nav ul {
+        flex-direction: column;
+        padding: 0;
+    }
+
+    nav li {
+        margin: 0;
+    }
+
+    nav a {
+        display: block;
+        padding: 10px;
+        background-color: #333;
+        color: #fff;
+        border-top: 1px solid #fff;
+    }
+
+    nav a:hover {
+        background-color: #555;
+    }
+}

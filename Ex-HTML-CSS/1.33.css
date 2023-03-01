@@ -1,0 +1,67 @@
+header {
+    background-color: lightgray;
+    padding: 10px;
+    margin: 0 auto;
+    border-radius: 10px 10px 0 0;
+}
+
+header h1 {
+    font-size: 2em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+header p {
+    font-size: 1.3em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.linha {
+    border: 1px solid black;
+}
+
+form {
+    background-color: lightgray;
+    border-radius: 0 0 10px 10px;
+}
+
+label, input, textarea {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 0 auto;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    border: none;
+    text-transform: uppercase;
+}
+
+form textarea {
+    resize: none;
+    height: 120px;
+}
+
+.botao button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 100%;
+    background-color: #4cb050;
+    color: #333;
+    padding: 10px;
+    font-size: 1rem;
+    font-weight: bolder;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+    border: none;
+    border-radius: 0 0 10px 10px;
+}
+
+.botao button:hover {
+    background-color: #333;
+    color: #fff;
+    font-weight: bolder;
+    border: 1px solid;
+    border-radius: 0 0 10px 10px;
+}

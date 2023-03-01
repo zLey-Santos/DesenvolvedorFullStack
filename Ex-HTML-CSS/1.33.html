@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Formulário</title>
+        <link href="1.33.css" rel="stylesheet" type="text/css" />
+    </head>
+
+    <body>
+        <header>
+            <h1>Formulároi de contacto</h1>
+            <p> Entre em contacto conosco</p>
+        </header>
+
+        <div class="linha"></div>
+
+        <form method="post" action="#">
+
+            <label for="nome">
+                <input type="name" id="name" name="name" placeholder="Digite seu nome" minlength="4" maxlength="16"
+                    required>
+            </label>
+
+            <label for="email">
+                <input type="email" id="email" name="email" placeholder="Digite seu e-mail" requireds>
+            </label>
+
+            <label for="telefone">
+                <input type="number" id="tel" name="tel" placeholder="Digite seu Nº telefone (opcional)">
+            </label>
+
+
+
+            <label for="url">
+                <input type="url" id="site" name="site" placeholder="Web Site (opcional)">
+            </label>
+
+            <label for="msg">
+                <textarea id="msg" name="msg" minlength="16" maxlength="250" placeholder="Deixe sua mensagem..."
+                    required></textarea>
+            </label>
+
+            <div class="botao">
+                <button type="submit">Enviar</button>
+            </div>
+
+
+        </form>
+    </body>
+
+</html>

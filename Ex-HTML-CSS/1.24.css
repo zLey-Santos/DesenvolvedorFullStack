@@ -1,0 +1,40 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    background-color: #616161;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 10% auto;
+    padding: 10px;
+    border-radius: 10px;
+
+
+}
+
+.img {
+    width: 250px;
+    height: 250px;
+    margin: 15px;
+    border-radius: 8px;
+}
+
+@media (max-width: 600px) {
+    #container {
+        width: 300px;
+        height: 40vh;
+        padding: 0;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .img {
+        margin: 0 2px;
+        width: 48.5%;
+        height: 32%;
+
+    }
+}

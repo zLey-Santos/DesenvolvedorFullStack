@@ -1,0 +1,55 @@
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+#conteudo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 600px;
+    height: 50px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid;
+}
+
+#logo im {
+    display: flex;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    margin-top: 10px;
+
+}
+
+#titulo {
+    display: flex;
+    position: absolute;
+    align-items: center;
+    white-space: nowrap;
+    max-width: 700px;
+    font-size: 12px;
+    margin-left: 35px;
+    margin-bottom: 30px;
+}
+
+#titulo p {
+    margin-top: 45px;
+    position: absolute;
+}
+
+#data {
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    margin-left: 50%;
+}
+
+#data p {
+    margin-left: 15px;
+}
+
+#data span {
+    margin-top: 17px;
+}

@@ -1,0 +1,43 @@
+let numStrA = prompt("Digite um número");
+let numStrB = prompt("Digite outro número");
+
+let numA = Number(numStrA);
+let numB = Number(numStrB);
+
+let res = numA + numB;
+
+
+alert("O resultado é " + res); 
+
+________________________________________________________________________________________________________________________________________________________________________________________________________
+Este código é escrito em JavaScript e tem como objetivo solicitar dois números ao usuário através de prompts, somá-los e mostrar o resultado em um alerta.
+
+Vamos analisar linha por linha:
+
+javascript
+
+let numStrA = prompt("Digite um número");
+let numStrB = prompt("Digite outro número");
+
+Nessas linhas, duas variáveis são declaradas (numStrA e numStrB) e os valores são solicitados ao usuário através da função prompt. A função prompt é utilizada para obter um valor de entrada do usuário, neste caso, os números.
+
+javascript
+
+let numA = Number(numStrA);
+let numB = Number(numStrB);
+
+Nessas linhas, as variáveis numStrA e numStrB (que armazenam os números como strings) são convertidas para números com a função Number e armazenadas nas variáveis numA e numB.
+
+javascript
+
+let res = numA + numB;
+
+Nessa linha, as variáveis numA e numB são somadas e o resultado é armazenado na variável res.
+
+scss
+
+alert("O resultado é " + res);
+
+Nessa linha, um alerta é exibido na tela com a mensagem "O resultado é" seguida pelo valor armazenado na variável res.
+
+Resumindo, o código solicita dois números ao usuário, os converte para números, os soma e exibe o resultado em um alerta.

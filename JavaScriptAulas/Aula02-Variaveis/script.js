@@ -9,6 +9,14 @@ let res = numA + numB;
 alert(res);
 
 
+/*let valorCentavosStr = prompt("Digite uma quantia em centavos");
+let valorCentavos = Number(valorCentavosStr);
+
+let valorReais = valorCentavos / 100;
+let valorReaisStr = "R$ " + valorReais.toString();
+alert(valorReaisStr);*/
+
+
 // alert("O resultado é " + res);let numStrA = prompt("Digite um número");
 // let numStrB = prompt("Digite outro número");
 

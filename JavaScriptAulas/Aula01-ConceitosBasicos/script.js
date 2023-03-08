@@ -1,6 +1,6 @@
 
-let nomeompleto = prompt('Digite seu nome completo');
-console.log(nomeompleto);
+let nomeCompleto = prompt('Digite seu nome completo');
+console.log(nomeCompleto);
 
 
 // let numeroEntre0e10 = Math.random() * 10; Math.random() gera numero aleatorios

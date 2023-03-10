@@ -59,8 +59,6 @@ switch (texto) {
 
 }
 
-
-
 if (num === 1) {
     alert('Um');
 } else if (num === 2) {

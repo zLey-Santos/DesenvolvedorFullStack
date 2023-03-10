@@ -19,12 +19,6 @@ if (media >= 7) {
     alert('Aluno: ' + ' ' + nomeA + ' ' + ' reprovado! com a media de nota: ' + media);
 }
 
-// let nomeA = prompt('Nome do Aluno ');
-// let nota1 = number(prompt('digite uma nota!'));
 
-// let nomeB = prompt('Nome do Aluno ');
-// let nota2 = number(prompt('digite uma nota!'));
-// let nomeC = prompt('Nome do Aluno ');
-// let nota3 = number(prompt('digite uma nota!'));
 
 

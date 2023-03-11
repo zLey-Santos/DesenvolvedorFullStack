@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <script>
+
+        nomeE = prompt("Informe o nome da escola: ")
+        nomeP = prompt("Informe o nome do professor: ")
+        nomeA = prompt("Informe o nome do aluno: ")
+
+        n1 = parseInt(prompt("Informe a primeira nota: "))
+        n2 = parseInt(prompt("Informe a segunda nota: "))
+        n3 = parseInt(prompt("Informe a terceira nota: "))
+
+        media = (n1 + n2 + n3) / 3
+
+
+        if (media >= 7) {
+            alert("Aprovado!");
+            console.log(media);
+            document.write("Aluno: " + nomeA + "aprovado! Com a media: " + media + " parabéns!");
+        }
+
+        else if (media >= 5 && media < 7) {
+            alert("Recuperação!");
+            console.log("Recuperação!");
+            console.log(media);
+            document.write("Aluno: " + nomeA + " recuperação! Com a media: " + media + " boa!");
+
+        }
+
+        else if (media < 55) {
+            alert("Reprovado")
+            console.log("Reprovado")
+            console.log(media)
+            document.write("Aluno: " + nomeA + " reprovado! Com a media: " + media + " lamentável!");
+
+        }
+
+    </script>
+
+    <body>
+
+    </body>
+
+</html>

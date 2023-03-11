@@ -55,7 +55,7 @@ switch (texto) {
         alert(0);
         break;
     default:
-        alert("ERRO: você tem que digite positivo, negativo ou zero");
+        alert("ERRO: você tem que digitar positivo, negativo ou zero");
 
 }
 

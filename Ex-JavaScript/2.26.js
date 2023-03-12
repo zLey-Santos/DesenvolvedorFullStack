@@ -1,0 +1,21 @@
+const a = !(true && false);
+const b = !((20 == '20') && false);
+const c = !((10 * 5) < 2) || false || false && false;
+const d = !(false || false);
+const e = !(false && false && false && false);
+const f = !(5 * 2 === '10') && (true != 'true') || false;
+const g = !((1 > 2) && (3 > 2) && (3 > 4));
+const h = !(!true);
+const i = !('20' + '23' != 2023) && ('20' + '00' !== 2000);
+const j = !((10 + 20).toString() !== 30 && (Number('50' + '10').toString() - 10) !== 5000);
+
+console.log("a=" + a);
+console.log("b=" + b);
+console.log("c=" + c);
+console.log("d=" + d);
+console.log("e=" + e);
+console.log("f=" + f);
+console.log("g=" + g);
+console.log("h=" + h);
+console.log("i=" + i);
+console.log("j=" + j);

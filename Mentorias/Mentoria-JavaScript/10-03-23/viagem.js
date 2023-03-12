@@ -14,7 +14,7 @@ if (respostaCarroQuebrado === 'sim') {
     alert('Resposta inválida. Por favor, responda com "sim" ou "nao".');
 }
 
-if (dinheiroNaConta && salario >= custoDaViagem) {
+if (dinheiroNaConta + salario >= custoDaViagem) {
     if (carroQuebrado) {
         alert('Viagem cancelada. O carro está quebrado.');
     } else {

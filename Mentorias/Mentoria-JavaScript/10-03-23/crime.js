@@ -4,9 +4,10 @@ let respostas_positivas = 0;
 
 // valida se a pessoa quer responder as perguntas
 if (resposta === "sim") {
-    console.log("Ok.");
-} else if (resposta === "não") {
-    console.log("Ok, talvez em outra ocasião.");
+    console.log("Ok, vamos começar.");
+} else /*nao
+if (resposta === "não") */ {
+    console.log("Você é considerado(a) SUSPEITO(A) do crime, não saia da cidade.");
 }
 
 let pergunta1 = prompt("Telefonou para a vítima? (sim/não)");

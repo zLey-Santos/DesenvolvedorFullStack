@@ -8,4 +8,4 @@ if (meuNumero === 3.14159) {
     alert("Acertou!");
 } else {
     alert("Errou!")
-}
+} 

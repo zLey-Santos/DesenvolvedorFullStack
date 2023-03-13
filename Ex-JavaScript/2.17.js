@@ -1,6 +1,6 @@
-var minhaResposta = prompt("Qual o valor de PI com cinco casa decimais?");
+let minhaResposta = prompt("Qual o valor de PI com cinco casa decimais?");
 
-var meuNumero = Number(minhaResposta);
+let meuNumero = Number(minhaResposta);
 
 console.log("O número digitado foi:" + meuNumero);
 

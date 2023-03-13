@@ -1,4 +1,4 @@
-var fruta = prompt('Escolha uma fruta disponivel, laranja, maça, banana.');
+let fruta = prompt('Escolha uma fruta disponivel, laranja, maça, banana.');
 
 if (fruta === 'laranja') {
     alert('Você escolheu ' + fruta + ', não esqueça de descascar!');
